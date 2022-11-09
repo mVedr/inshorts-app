@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { StatusBar, StyleSheet, View } from "react-native";
 import Context, { NewsContext } from "./API/Context";
-import InshortTabs from "./components/InShortTabs";
-import "../inShort/IgnoreWarning";
+import InshortTabs from "./components/InshortTabs";
+
 function App() {
   const { darkTheme } = useContext(NewsContext);
 
